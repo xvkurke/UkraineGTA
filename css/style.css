@@ -376,6 +376,7 @@ body.fixed {
 .hero-monitoring {
     max-width: 540px;
     position: relative;
+    padding-top: 4px;
 }
 .hero-monitoring__title {
     font-weight: 600;
@@ -399,7 +400,7 @@ body.fixed {
 }
 .hero-monitoring__desc {
     position: absolute;
-    top: 3px;
+    top: 7px;
     left: 209px;
 }
 .hero-monitoring__desc:before {
