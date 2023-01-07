@@ -1,0 +1,118 @@
+/* 1 */
+.header {
+    transform: translate3d(0, -100%, 0);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+.header.anim {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+.hero {
+    overflow: hidden;
+}
+
+/* 2 */
+.hero__title {
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+    transition: transform 1s ease 0.5s, opacity 1s ease 0.5s;
+}
+.hero__title.anim {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+/* 3 */
+
+.hero__text {
+    opacity: 0;
+    transition: opacity 2s ease 1s;
+}
+.hero__text.anim {
+    opacity: 1;
+}
+
+/* 4 */
+.hero__btn-game {
+    opacity: 0;
+    transition: opacity 3s ease 1.5s;
+}
+.hero__btn-game.anim {
+    opacity: 1;
+}
+/* 5 */
+.hero__btn-info {
+    opacity: 0;
+    transition: opacity 3s ease 1.7s;
+}
+
+.hero__btn-info.anim {
+    opacity: 1;
+}
+/* 6 */
+.hero-img {
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+    transition: transform 1s ease 1.8s, opacity 1s ease 1.8s;
+}
+.hero-img.anim {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+.hero__img-wrapper:before {
+    transform: translate3d(0, 800%, 0);
+    opacity: 0;
+    transition: transform 1s ease 2s, opacity 1s ease 2s;
+}
+.hero__img-wrapper.anim:before {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+/* 7 */
+.hero__content {
+    overflow: hidden;
+}
+.hero-monitoring__desc {
+    transform: translate3d(-100%, 0, 0);
+    opacity: 0;
+    transition: transform 1s ease 2.6s, opacity 1s ease 2.6s;
+}
+.hero-monitoring__desc.anim {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+/* 8 */
+.hero-monitoring__title {
+    transform: translate3d(-100%, 0, 0);
+    opacity: 0;
+    transition: all 1s ease 1.8s;
+    transition: transform 1s ease 2.4s, opacity 1s ease 2.4s;
+}
+.hero-monitoring__title.anim {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+/* 9 */
+.hero-monitoring__item-1 {
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+    transition: transform 1s ease 2.7s, opacity 1s ease 2.7s;
+}
+.hero-monitoring__item-1.anim {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+/* 10 */
+.hero-monitoring__item-2 {
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+    transition: transform 1s ease 3s, opacity 1s ease 3s;
+}
+.hero-monitoring__item-2.anim {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
